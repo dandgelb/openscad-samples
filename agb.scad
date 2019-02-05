@@ -16,8 +16,8 @@ module hall_ota() {
 }
 
 module side_ota() {
-    translate([0, 6*12, 0]) {
-        cube([2*12, 16*12, 2*7]);
+    translate([0, 0, 0]) {
+        cube([2*12, 22*12, 2*7]);
     }
 }
 module gate_level() {
